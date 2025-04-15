@@ -1,4 +1,4 @@
-#!/system/bin/sh
+#!/bin/sh
 su -c resetprop -n gsm.sim.operator.iso-country "EG"
 (
     # Ждем полной загрузки
