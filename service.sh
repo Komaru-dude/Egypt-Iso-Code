@@ -1,5 +1,5 @@
 #!/system/bin/sh
-resetprop -n gsm.sim.operator.iso-country "EG"
+su -c resetprop -n gsm.sim.operator.iso-country "EG"
 (
     # Ждем полной загрузки
     until [ "$(getprop sys.boot_completed)" = "1" ]; do
@@ -7,7 +7,7 @@ resetprop -n gsm.sim.operator.iso-country "EG"
     done
 
     # Устанавливаем свойство
-    resetprop -n gsm.sim.operator.iso-country "EG"
+    su -c resetprop -n gsm.sim.operator.iso-country "EG"
 
     # Логируем результат
     LOG_FILE="/data/local/tmp/egypt.log"
