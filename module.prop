@@ -4,3 +4,4 @@ version=1.5
 versionCode=6
 author=@Komaru_dude
 description=Принудительно устанавливает ISO код на египетский, позволяет открывать доступ к некоторым приложениям, например TikTok
+updateJson=https://raw.githubusercontent.com/Komaru-dude/Egypt-Iso-Code/main/update.json
