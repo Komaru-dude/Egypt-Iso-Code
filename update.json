@@ -2,5 +2,5 @@
     "version": "1.6",
     "versionCode": 7,
     "zipUrl": "https://github.com/Komaru-dude/Egypt-Iso-Code/releases/download/v1.6/Egypt-Iso-Code.zip",
-    "changelog": "• Принудительная установка ISO кода EG\n• Разблокировка доступа к TikTok и другим приложениям"
+    "changelog": "• Попытки исправить отсутствие изменения ISO кода после загрузки"
   }  
